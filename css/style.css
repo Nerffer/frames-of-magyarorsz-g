@@ -363,7 +363,6 @@ footer p{
 @media (max-width: 768px){
     .hero-text h1{
         font-size: 2.5em;
-        padding: 5px 10px;
     }
 
     #hero{
@@ -379,56 +378,8 @@ footer p{
     }
 
     #about-me img{
-        max-width: 100%; /* Ensure no overflow */
-        height: auto;
+        max-height: 300px;
     }
-
-    img, video {
-        max-width: 100%;
-        height: auto; /* Maintain aspect ratio */
-        margin: 0 auto; /* Center them */
-        display: block;
-    }
-
-    h2 {
-        font-size: 1.8em; /* Smaller font size */
-        text-align: center; /* Center align headings */
-    }
-
-    p {
-        font-size: 1em; /* Reduce font size for better readability */
-        padding-left: 10px; /* Less padding for smaller screens */
-        padding-right: 10px;
-    }
-
-    #form-container {
-        flex-direction: column; /* Stack elements */
-        padding: 20px;
-    }
-
-    form {
-        padding: 10px; /* Reduce padding */
-        width: 90%; /* Make forms take full width */
-    }
-    
-    .navbar-nav {
-        flex-direction: column; /* Stack items */
-        align-items: center;
-    }
-
-    .navbar-toggler {
-        margin: 10px 0; /* Add space */
-    }
-
-    footer {
-        padding: 10px 5px;
-        text-align: center;
-    }
-
-    footer p {
-        font-size: 0.9em; /* Smaller font size */
-    }
-
 }
 
   
