@@ -13,6 +13,7 @@ p, label, small{
     font-size: 0.9em;
 }
 
+/* Adjusts spacing for fluid containers */
 .container-fluid{
     padding: 0;
     margin: 0;
@@ -43,6 +44,7 @@ p, label, small{
     object-fit: cover;
 }
 
+/* Styling for the text of the hero image */
 .hero-text{
     position: absolute;
     top: 15%;
@@ -89,6 +91,7 @@ p, label, small{
     margin-right: 28px;
 }
 
+/* Custom icon for the toggle button */
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.9%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -103,14 +106,6 @@ h2{
     margin-bottom: 20px;
 }
 
-h3{
-    font-size: 1.5em;
-    text-align: left;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    padding-left: 45px;
-}
-
 p{
     font-size: 1.2em;
     text-align: justify;
@@ -119,6 +114,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Special indentation for paragraphs in the "About Me" section */
 #about-me p{
     text-indent: 2em;
 }
@@ -150,6 +146,7 @@ a:active{
     margin: 20px auto;
 }
 
+/* Making carousel images are fully responsive */
 .carousel-inner img{
     width: 100%;
     height: auto;
@@ -220,7 +217,7 @@ a:active{
     color: #fff;
 }
 
-table caption {
+table caption{
     caption-side: top;
     margin-bottom: 10px;
     font-size: 1.2em;
@@ -229,7 +226,7 @@ table caption {
 }
 
 /* === Video Transcript Styles === */
-#video-transcript {
+#video-transcript{
     max-width: 700px;
     margin: 10px;
     padding: 0;
@@ -262,12 +259,12 @@ table caption {
     line-height: 1.6;
 }
 
-#feedback-intro h2 {
+#feedback-intro h2{
     margin-bottom: 20px;
     text-align: center;
 }
 
-#feedback-intro p {
+#feedback-intro p{
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -292,10 +289,19 @@ form{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+form .form-control {
+    margin-bottom: 15px; /* To add space between labels and inputs */
+}
+
 form .form-check{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+}
+
+/* To align the button and the label vertically */
+form .form-check-input {
+    margin-bottom: 4px; 
 }
 
 form .form-check-label{
@@ -381,5 +387,3 @@ footer p{
         max-height: 300px;
     }
 }
-
-  
