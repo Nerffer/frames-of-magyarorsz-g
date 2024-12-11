@@ -415,3 +415,17 @@ footer p{
         max-height: 300px;
     }
 }
+
+/* === Printing === */
+@media print{
+    .carousel,
+    #hero,
+    #about-me img,
+    video,
+    .help-section,
+    #video-transcript,
+    footer,
+    nav {
+        display: none;
+    }
+}
